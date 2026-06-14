@@ -1,0 +1,17 @@
+# 运动控制程序依赖列表
+# ======================
+
+# LeRobot 框架 (SO101 机械臂)
+lerobot[feetech]
+
+# RKNN 推理 (端侧开发板)
+# rknn_toolkit_lite2   # RK3576/RK3588 开发板专用，需按对应 python 版本安装
+
+# 核心依赖
+opencv-python>=4.5
+numpy>=1.21
+torch>=1.10
+torchvision>=0.10
+
+# 可选依赖 (PC 端 Hopenet ONNX 回退)
+# onnxruntime>=1.10
